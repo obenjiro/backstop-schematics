@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "dependencies": {
+    "backstopjs": "^5.0.4"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backstop:approve": "npm run start & backstop approve; wait",
+    "backstop:test": "npm run start & backstop test; wait"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

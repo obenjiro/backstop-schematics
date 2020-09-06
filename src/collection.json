@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "Adds BackstopJS to the application",
+      "factory": "./install/index#install",
+      "aliases": ["install"]
+    }
+  }
+}
